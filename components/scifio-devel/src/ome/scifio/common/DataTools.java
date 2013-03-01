@@ -38,6 +38,8 @@ package ome.scifio.common;
 
 import java.io.File;
 import java.io.IOException;
+import java.nio.ByteBuffer;
+import java.nio.ByteOrder;
 import java.text.DecimalFormatSymbols;
 
 import ome.scifio.io.RandomAccessInputStream;
@@ -565,39 +567,31 @@ public final class DataTools {
     if (bpp == 1) {
       return b;
     }
-    else if (bpp == 2) {
+    ByteBuffer buffer = ByteBuffer.wrap(b);
+    buffer.order(little ? ByteOrder.LITTLE_ENDIAN : ByteOrder.BIG_ENDIAN);
+    if (bpp == 2) {
       short[] s = new short[b.length / 2];
-      for (int i=0; i<s.length; i++) {
-        s[i] = bytesToShort(b, i*2, 2, little);
-      }
+      buffer.asShortBuffer().get(s);
       return s;
     }
     else if (bpp == 4 && fp) {
       float[] f = new float[b.length / 4];
-      for (int i=0; i<f.length; i++) {
-        f[i] = bytesToFloat(b, i * 4, 4, little);
-      }
+      buffer.asFloatBuffer().get(f);
       return f;
     }
     else if (bpp == 4) {
       int[] i = new int[b.length / 4];
-      for (int j=0; j<i.length; j++) {
-        i[j] = bytesToInt(b, j*4, 4, little);
-      }
+      buffer.asIntBuffer().get(i);
       return i;
     }
     else if (bpp == 8 && fp) {
       double[] d = new double[b.length / 8];
-      for (int i=0; i<d.length; i++) {
-        d[i] = bytesToDouble(b, i * 8, 8, little);
-      }
+      buffer.asDoubleBuffer().get(d);
       return d;
     }
     else if (bpp == 8) {
       long[] l = new long[b.length / 8];
-      for (int i=0; i<l.length; i++) {
-        l[i] = bytesToLong(b, i*8, 8, little);
-      }
+      buffer.asLongBuffer().get(l);
       return l;
     }
     return null;
