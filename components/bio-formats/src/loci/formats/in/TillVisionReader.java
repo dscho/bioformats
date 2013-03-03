@@ -28,14 +28,12 @@ package loci.formats.in;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.InputStreamReader;
 import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Hashtable;
 import java.util.Vector;
-
-import ome.xml.model.primitives.Timestamp;
 
 import loci.common.Constants;
 import loci.common.DataTools;
@@ -54,6 +52,7 @@ import loci.formats.MetadataTools;
 import loci.formats.meta.MetadataStore;
 import loci.formats.services.POIService;
 import ome.scifio.io.Location;
+import ome.xml.model.primitives.Timestamp;
 
 /**
  * TillVisionReader is the file format reader for TillVision files.
