@@ -112,7 +112,6 @@ import java.util.Iterator;
 import java.util.Vector;
 
 import loci.common.DataTools;
-import loci.common.CaseInsensitiveLocation;
 import loci.common.RandomAccessInputStream;
 import loci.common.xml.XMLTools;
 import loci.formats.FormatException;
@@ -120,6 +119,7 @@ import loci.formats.FormatTools;
 import loci.formats.meta.MetadataStore;
 import loci.formats.tiff.IFD;
 import loci.formats.tiff.IFDList;
+import ome.scifio.io.CaseInsensitiveLocation;
 
 /**
  * ZeissTIFFReader is the file format reader for Zeiss AxioVision TIFF
