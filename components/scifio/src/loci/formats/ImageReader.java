@@ -44,7 +44,7 @@ import java.util.Hashtable;
 import java.util.List;
 import java.util.Set;
 
-import loci.common.RandomAccessInputStream;
+import ome.scifio.io.RandomAccessInputStream;
 import loci.formats.in.MetadataLevel;
 import loci.formats.in.MetadataOptions;
 import loci.formats.meta.MetadataStore;

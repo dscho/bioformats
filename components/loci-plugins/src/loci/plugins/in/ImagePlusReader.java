@@ -40,7 +40,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Vector;
 
-import loci.common.Location;
+import ome.scifio.io.Location;
 import loci.common.Region;
 import loci.common.StatusEvent;
 import loci.common.StatusListener;

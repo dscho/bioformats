@@ -44,7 +44,8 @@ package loci.poi.poifs.storage;
 import java.io.*;
 
 import java.util.*;
-import loci.common.*;
+
+import ome.scifio.io.RandomAccessInputStream;
 import loci.poi.util.*;
 
 /**

@@ -29,9 +29,8 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-import loci.common.ByteArrayHandle;
-import loci.common.Location;
-import loci.common.RandomAccessInputStream;
+import ome.scifio.io.ByteArrayHandle;
+import ome.scifio.io.Location;
 import loci.common.Region;
 import loci.formats.CoreMetadata;
 import loci.formats.FormatException;
@@ -41,13 +40,14 @@ import loci.formats.IFormatReader;
 import loci.formats.MetadataTools;
 import loci.formats.codec.Codec;
 import loci.formats.codec.CodecOptions;
-import loci.formats.codec.JPEGCodec;
 import loci.formats.codec.JPEG2000Codec;
+import loci.formats.codec.JPEGCodec;
 import loci.formats.meta.MetadataStore;
 import loci.formats.tiff.IFD;
 import loci.formats.tiff.IFDList;
 import loci.formats.tiff.PhotoInterp;
 import loci.formats.tiff.TiffParser;
+import ome.scifio.io.RandomAccessInputStream;
 
 /**
  * CellSensReader is the file format reader for cellSens .vsi files.

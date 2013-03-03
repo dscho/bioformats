@@ -36,15 +36,12 @@ import java.util.Arrays;
 import java.util.Hashtable;
 import java.util.zip.GZIPInputStream;
 
-import ome.xml.model.primitives.Timestamp;
-
 import loci.common.DataTools;
 import loci.common.DateTools;
 import loci.common.IniList;
 import loci.common.IniParser;
 import loci.common.IniTable;
-import loci.common.Location;
-import loci.common.RandomAccessInputStream;
+import ome.scifio.io.Location;
 import loci.formats.CoreMetadata;
 import loci.formats.FormatException;
 import loci.formats.FormatReader;
@@ -52,6 +49,8 @@ import loci.formats.FormatTools;
 import loci.formats.MetadataTools;
 import loci.formats.UnsupportedCompressionException;
 import loci.formats.meta.MetadataStore;
+import ome.scifio.io.RandomAccessInputStream;
+import ome.xml.model.primitives.Timestamp;
 
 /**
  * LiFlimReader is the file format reader for LI-FLIM files.

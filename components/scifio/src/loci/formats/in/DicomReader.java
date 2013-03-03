@@ -43,8 +43,7 @@ import java.util.Vector;
 
 import loci.common.DataTools;
 import loci.common.DateTools;
-import loci.common.Location;
-import loci.common.RandomAccessInputStream;
+import ome.scifio.io.Location;
 import loci.formats.CoreMetadata;
 import loci.formats.FilePattern;
 import loci.formats.FormatException;
@@ -58,6 +57,7 @@ import loci.formats.codec.JPEG2000Codec;
 import loci.formats.codec.JPEGCodec;
 import loci.formats.codec.PackbitsCodec;
 import loci.formats.meta.MetadataStore;
+import ome.scifio.io.RandomAccessInputStream;
 import ome.xml.model.primitives.PositiveFloat;
 import ome.xml.model.primitives.Timestamp;
 

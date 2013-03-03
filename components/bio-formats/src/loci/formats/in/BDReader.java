@@ -29,8 +29,8 @@ package loci.formats.in;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.InputStreamReader;
 import java.io.IOException;
+import java.io.InputStreamReader;
 import java.io.StringReader;
 import java.util.Arrays;
 import java.util.HashMap;
@@ -42,8 +42,7 @@ import loci.common.DateTools;
 import loci.common.IniList;
 import loci.common.IniParser;
 import loci.common.IniTable;
-import loci.common.Location;
-import loci.common.RandomAccessInputStream;
+import ome.scifio.io.Location;
 import loci.formats.CoreMetadata;
 import loci.formats.FormatException;
 import loci.formats.FormatReader;
@@ -53,7 +52,7 @@ import loci.formats.meta.MetadataStore;
 import loci.formats.tiff.IFD;
 import loci.formats.tiff.TiffIFDEntry;
 import loci.formats.tiff.TiffParser;
-
+import ome.scifio.io.RandomAccessInputStream;
 import ome.xml.model.primitives.NonNegativeInteger;
 import ome.xml.model.primitives.PositiveInteger;
 

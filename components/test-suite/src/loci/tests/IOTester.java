@@ -29,7 +29,7 @@ import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
-import loci.common.RandomAccessInputStream;
+import ome.scifio.io.RandomAccessInputStream;
 
 import org.apache.log4j.ConsoleAppender;
 import org.apache.log4j.Level;

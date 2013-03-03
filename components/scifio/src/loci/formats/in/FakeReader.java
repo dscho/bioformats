@@ -40,7 +40,7 @@ import java.io.IOException;
 import java.util.Random;
 
 import loci.common.DataTools;
-import loci.common.Location;
+import ome.scifio.io.Location;
 import loci.formats.CoreMetadata;
 import loci.formats.FormatException;
 import loci.formats.FormatReader;

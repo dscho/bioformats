@@ -39,8 +39,8 @@ package loci.formats.codec;
 import java.io.IOException;
 import java.util.Arrays;
 
-import loci.common.RandomAccessInputStream;
 import loci.formats.FormatException;
+import ome.scifio.io.RandomAccessInputStream;
 
 /**
  * This is an optimized LZW codec for use with TIFF files.

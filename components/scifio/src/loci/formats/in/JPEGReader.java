@@ -37,17 +37,16 @@
 package loci.formats.in;
 
 import java.awt.color.CMMException;
-import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 
-import loci.common.ByteArrayHandle;
+import ome.scifio.io.ByteArrayHandle;
 import loci.common.DataTools;
-import loci.common.Location;
-import loci.common.RandomAccessInputStream;
+import ome.scifio.io.Location;
 import loci.formats.DelegateReader;
 import loci.formats.FormatException;
 import loci.formats.FormatTools;
+import ome.scifio.io.RandomAccessInputStream;
 
 /**
  * JPEGReader is the file format reader for JPEG images.

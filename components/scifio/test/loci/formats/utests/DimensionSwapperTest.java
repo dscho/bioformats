@@ -38,7 +38,7 @@ package loci.formats.utests;
 
 import java.io.IOException;
 
-import loci.common.Location;
+import ome.scifio.io.Location;
 import loci.formats.DimensionSwapper;
 import loci.formats.FormatException;
 

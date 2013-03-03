@@ -28,7 +28,6 @@ package loci.formats.in;
 import java.io.IOException;
 
 import loci.common.DateTools;
-import loci.common.RandomAccessInputStream;
 import loci.common.xml.BaseHandler;
 import loci.common.xml.XMLTools;
 import loci.formats.CoreMetadata;
@@ -39,7 +38,7 @@ import loci.formats.meta.MetadataStore;
 import loci.formats.tiff.IFD;
 import loci.formats.tiff.PhotoInterp;
 import loci.formats.tiff.TiffParser;
-
+import ome.scifio.io.RandomAccessInputStream;
 import ome.xml.model.primitives.Timestamp;
 
 import org.xml.sax.Attributes;

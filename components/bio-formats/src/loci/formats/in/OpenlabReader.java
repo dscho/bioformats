@@ -28,9 +28,8 @@ package loci.formats.in;
 import java.io.IOException;
 import java.util.Vector;
 
-import loci.common.ByteArrayHandle;
-import loci.common.Location;
-import loci.common.RandomAccessInputStream;
+import ome.scifio.io.ByteArrayHandle;
+import ome.scifio.io.Location;
 import loci.formats.ChannelSeparator;
 import loci.formats.CoreMetadata;
 import loci.formats.FormatException;
@@ -41,6 +40,7 @@ import loci.formats.MetadataTools;
 import loci.formats.codec.CodecOptions;
 import loci.formats.codec.LZOCodec;
 import loci.formats.meta.MetadataStore;
+import ome.scifio.io.RandomAccessInputStream;
 import ome.xml.model.primitives.PositiveFloat;
 
 /**

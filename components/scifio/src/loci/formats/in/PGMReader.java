@@ -39,16 +39,15 @@ package loci.formats.in;
 import java.io.IOException;
 import java.util.StringTokenizer;
 
-import loci.common.ByteArrayHandle;
-import loci.common.DataTools;
-import loci.common.RandomAccessInputStream;
-import loci.common.RandomAccessOutputStream;
+import ome.scifio.io.ByteArrayHandle;
+import ome.scifio.io.RandomAccessOutputStream;
 import loci.formats.CoreMetadata;
 import loci.formats.FormatException;
 import loci.formats.FormatReader;
 import loci.formats.FormatTools;
 import loci.formats.MetadataTools;
 import loci.formats.meta.MetadataStore;
+import ome.scifio.io.RandomAccessInputStream;
 
 /**
  * PGMReader is the file format reader for Portable Gray Map (PGM) images.

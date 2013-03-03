@@ -38,8 +38,8 @@ package loci.formats.codec;
 
 import java.io.IOException;
 
-import loci.common.ByteArrayHandle;
-import loci.common.RandomAccessInputStream;
+import ome.scifio.io.ByteArrayHandle;
+import ome.scifio.io.RandomAccessInputStream;
 import loci.formats.FormatException;
 import loci.formats.UnsupportedCompressionException;
 

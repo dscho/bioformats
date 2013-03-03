@@ -26,7 +26,7 @@
 import java.io.File;
 import java.io.FileWriter;
 
-import loci.common.RandomAccessInputStream;
+import ome.scifio.io.RandomAccessInputStream;
 import loci.formats.in.FlexReader;
 import loci.formats.tiff.IFD;
 import loci.formats.tiff.TiffParser;

@@ -40,7 +40,6 @@ import java.io.IOException;
 import java.util.Vector;
 
 import loci.common.DateTools;
-import loci.common.RandomAccessInputStream;
 import loci.common.ReflectException;
 import loci.common.ReflectedUniverse;
 import loci.common.services.DependencyException;
@@ -51,6 +50,7 @@ import loci.formats.meta.MetadataRetrieve;
 import loci.formats.meta.MetadataStore;
 import loci.formats.services.OMEXMLService;
 import loci.formats.services.OMEXMLServiceImpl;
+import ome.scifio.io.RandomAccessInputStream;
 
 /**
  * A utility class for format reader and writer implementations.

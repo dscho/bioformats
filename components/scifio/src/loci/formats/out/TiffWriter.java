@@ -38,8 +38,8 @@ package loci.formats.out;
 
 import java.io.IOException;
 
-import loci.common.RandomAccessInputStream;
-import loci.common.RandomAccessOutputStream;
+import ome.scifio.io.RandomAccessInputStream;
+import ome.scifio.io.RandomAccessOutputStream;
 import loci.formats.FormatException;
 import loci.formats.FormatTools;
 import loci.formats.FormatWriter;

@@ -28,14 +28,14 @@ package loci.formats.in;
 import java.io.IOException;
 import java.nio.ByteOrder;
 
-import loci.common.ByteArrayHandle;
-import loci.common.RandomAccessInputStream;
 import loci.formats.CoreMetadata;
 import loci.formats.FormatException;
 import loci.formats.FormatReader;
 import loci.formats.FormatTools;
 import loci.formats.MetadataTools;
 import loci.formats.meta.MetadataStore;
+import ome.scifio.io.ByteArrayHandle;
+import ome.scifio.io.RandomAccessInputStream;
 
 /**
  * InCell3000Reader is the file format reader for InCell 3000.

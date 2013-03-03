@@ -43,7 +43,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import loci.common.Location;
+import ome.scifio.io.Location;
 import loci.formats.FormatException;
 import loci.formats.FormatTools;
 import loci.formats.MinMaxCalculator;

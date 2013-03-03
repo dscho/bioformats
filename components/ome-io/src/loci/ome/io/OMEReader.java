@@ -28,7 +28,7 @@ package loci.ome.io;
 import java.io.IOException;
 import java.util.List;
 
-import loci.common.RandomAccessInputStream;
+import ome.scifio.io.RandomAccessInputStream;
 import loci.common.ReflectException;
 import loci.common.ReflectedUniverse;
 import loci.formats.CoreMetadata;

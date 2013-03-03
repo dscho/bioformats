@@ -48,7 +48,7 @@ import java.util.StringTokenizer;
 import java.util.Vector;
 
 import loci.common.Constants;
-import loci.common.Location;
+import ome.scifio.io.Location;
 import loci.common.services.DependencyException;
 import loci.common.services.ServiceException;
 import loci.common.services.ServiceFactory;

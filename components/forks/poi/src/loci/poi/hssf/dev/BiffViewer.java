@@ -45,8 +45,6 @@
  */
 package loci.poi.hssf.dev;
 
-import loci.common.*;
-
 import loci.poi.util.HexDump;
 import loci.poi.hssf.record.*;
 import loci.poi.poifs.filesystem.POIFSFileSystem;
@@ -55,6 +53,8 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
+
+import ome.scifio.io.RandomAccessInputStream;
 
 /**
  *  Utillity for reading in BIFF8 records and displaying data from them.

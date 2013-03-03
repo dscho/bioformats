@@ -41,11 +41,11 @@ import java.io.IOException;
 import java.util.Hashtable;
 import java.util.StringTokenizer;
 
-import loci.common.ByteArrayHandle;
+import ome.scifio.io.ByteArrayHandle;
 import loci.common.DataTools;
 import loci.common.DebugTools;
-import loci.common.Location;
-import loci.common.RandomAccessInputStream;
+import ome.scifio.io.Location;
+import ome.scifio.io.RandomAccessInputStream;
 import loci.common.services.DependencyException;
 import loci.common.services.ServiceException;
 import loci.common.services.ServiceFactory;

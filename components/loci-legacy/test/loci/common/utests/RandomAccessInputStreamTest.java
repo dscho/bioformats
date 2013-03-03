@@ -40,8 +40,8 @@ import static org.testng.AssertJUnit.assertEquals;
 
 import java.io.IOException;
 
-import loci.common.IRandomAccess;
-import loci.common.RandomAccessInputStream;
+import ome.scifio.io.IRandomAccess;
+import ome.scifio.io.RandomAccessInputStream;
 import loci.common.utests.providers.IRandomAccessProvider;
 import loci.common.utests.providers.IRandomAccessProviderFactory;
 

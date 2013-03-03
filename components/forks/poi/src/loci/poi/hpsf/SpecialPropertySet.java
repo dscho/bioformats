@@ -45,7 +45,7 @@ import java.io.InputStream;
 import java.io.OutputStream;
 import java.util.List;
 
-import loci.common.*;
+import ome.scifio.io.RandomAccessInputStream;
 
 import loci.poi.poifs.filesystem.DirectoryEntry;
 import loci.poi.util.*;

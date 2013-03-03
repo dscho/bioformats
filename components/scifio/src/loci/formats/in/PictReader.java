@@ -39,9 +39,9 @@ package loci.formats.in;
 import java.io.IOException;
 import java.util.Vector;
 
-import loci.common.ByteArrayHandle;
+import ome.scifio.io.ByteArrayHandle;
 import loci.common.DataTools;
-import loci.common.RandomAccessInputStream;
+import ome.scifio.io.RandomAccessInputStream;
 import loci.formats.CoreMetadata;
 import loci.formats.FormatException;
 import loci.formats.FormatReader;

@@ -44,8 +44,8 @@ import java.util.ArrayList;
 
 import loci.common.Constants;
 import loci.common.DataTools;
-import loci.common.RandomAccessInputStream;
-import loci.common.RandomAccessOutputStream;
+import ome.scifio.io.RandomAccessInputStream;
+import ome.scifio.io.RandomAccessOutputStream;
 import loci.formats.FormatException;
 import loci.formats.UpgradeChecker;
 import loci.formats.tiff.TiffParser;

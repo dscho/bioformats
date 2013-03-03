@@ -51,7 +51,7 @@ import javax.swing.JPanel;
 import ij.IJ;
 import ij.gui.GenericDialog;
 
-import loci.common.Location;
+import ome.scifio.io.Location;
 import loci.formats.FilePattern;
 import loci.formats.FilePatternBlock;
 

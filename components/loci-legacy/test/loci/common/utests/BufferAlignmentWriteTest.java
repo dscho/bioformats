@@ -41,7 +41,7 @@ import static org.testng.AssertJUnit.assertEquals;
 import java.io.IOException;
 import java.nio.ByteBuffer;
 
-import loci.common.IRandomAccess;
+import ome.scifio.io.IRandomAccess;
 import loci.common.utests.providers.IRandomAccessProvider;
 import loci.common.utests.providers.IRandomAccessProviderFactory;
 

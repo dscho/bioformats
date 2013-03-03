@@ -38,9 +38,9 @@ package loci.formats.codec;
 
 import java.io.IOException;
 
-import loci.common.RandomAccessInputStream;
 import loci.formats.FormatException;
 import loci.formats.UnsupportedCompressionException;
+import ome.scifio.io.RandomAccessInputStream;
 
 /**
  * Methods for compressing and decompressing QuickTime Motion JPEG-B data.

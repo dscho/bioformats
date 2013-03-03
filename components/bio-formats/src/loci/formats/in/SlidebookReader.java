@@ -34,7 +34,7 @@ import java.util.Vector;
 
 import loci.common.Constants;
 import loci.common.DataTools;
-import loci.common.RandomAccessInputStream;
+import ome.scifio.io.RandomAccessInputStream;
 import loci.formats.CoreMetadata;
 import loci.formats.FormatException;
 import loci.formats.FormatReader;

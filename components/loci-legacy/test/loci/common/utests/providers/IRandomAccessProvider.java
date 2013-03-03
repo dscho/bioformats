@@ -38,7 +38,7 @@ package loci.common.utests.providers;
 
 import java.io.IOException;
 
-import loci.common.IRandomAccess;
+import ome.scifio.io.IRandomAccess;
 
 /**
  * Interface for all providers of IRandomAccess objects.

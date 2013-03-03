@@ -30,7 +30,7 @@ import java.util.Hashtable;
 import java.util.StringTokenizer;
 
 import loci.common.Constants;
-import loci.common.RandomAccessInputStream;
+import ome.scifio.io.RandomAccessInputStream;
 
 /**
  * SDTInfo encapsulates the header information for

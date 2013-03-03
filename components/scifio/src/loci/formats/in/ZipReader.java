@@ -41,10 +41,10 @@ import java.util.ArrayList;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipInputStream;
 
-import loci.common.IRandomAccess;
-import loci.common.Location;
-import loci.common.RandomAccessInputStream;
-import loci.common.ZipHandle;
+import ome.scifio.io.IRandomAccess;
+import ome.scifio.io.Location;
+import ome.scifio.io.RandomAccessInputStream;
+import ome.scifio.io.ZipHandle;
 import loci.formats.CoreMetadata;
 import loci.formats.FormatException;
 import loci.formats.FormatReader;

@@ -43,8 +43,8 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 
 import loci.common.FileHandle;
-import loci.common.IRandomAccess;
-import loci.common.Location;
+import ome.scifio.io.IRandomAccess;
+import ome.scifio.io.Location;
 import loci.common.ReflectException;
 import loci.common.ReflectedUniverse;
 import loci.formats.CoreMetadata;

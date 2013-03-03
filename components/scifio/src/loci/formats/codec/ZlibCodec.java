@@ -41,7 +41,7 @@ import java.io.IOException;
 import java.util.zip.Deflater;
 import java.util.zip.InflaterInputStream;
 
-import loci.common.RandomAccessInputStream;
+import ome.scifio.io.RandomAccessInputStream;
 import loci.formats.FormatException;
 
 /**

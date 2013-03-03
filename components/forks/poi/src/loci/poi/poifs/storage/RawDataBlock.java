@@ -41,10 +41,11 @@
 
 package loci.poi.poifs.storage;
 
-import loci.common.*;
 import loci.poi.util.*;
 
 import java.io.*;
+
+import ome.scifio.io.RandomAccessInputStream;
 
 /**
  * A big block created from an InputStream, holding the raw data

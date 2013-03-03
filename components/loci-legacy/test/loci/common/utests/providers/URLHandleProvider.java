@@ -40,8 +40,8 @@ import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
-import loci.common.IRandomAccess;
-import loci.common.URLHandle;
+import ome.scifio.io.IRandomAccess;
+import ome.scifio.io.URLHandle;
 
 /**
  * Implementation of IRandomAccessProvider that produces instances of

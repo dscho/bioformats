@@ -40,14 +40,13 @@ import java.awt.image.ColorModel;
 import java.io.IOException;
 import java.util.HashMap;
 
-import ome.xml.model.primitives.PositiveInteger;
-
 import loci.common.DataTools;
-import loci.common.RandomAccessOutputStream;
 import loci.common.Region;
 import loci.formats.codec.CodecOptions;
 import loci.formats.meta.DummyMetadata;
 import loci.formats.meta.MetadataRetrieve;
+import ome.scifio.io.RandomAccessOutputStream;
+import ome.xml.model.primitives.PositiveInteger;
 
 /**
  * Abstract superclass of all biological file format writers.

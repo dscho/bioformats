@@ -40,7 +40,6 @@ import java.io.IOException;
 import java.util.Vector;
 
 import loci.common.Constants;
-import loci.common.RandomAccessInputStream;
 import loci.formats.CoreMetadata;
 import loci.formats.FormatException;
 import loci.formats.FormatReader;
@@ -54,6 +53,7 @@ import loci.formats.codec.JPEGCodec;
 import loci.formats.codec.MSRLECodec;
 import loci.formats.codec.MSVideoCodec;
 import loci.formats.meta.MetadataStore;
+import ome.scifio.io.RandomAccessInputStream;
 
 /**
  * AVIReader is the file format reader for AVI files.

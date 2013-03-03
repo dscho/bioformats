@@ -39,13 +39,13 @@ package loci.formats.out;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 
-import loci.common.RandomAccessInputStream;
-import loci.common.RandomAccessOutputStream;
 import loci.formats.FormatException;
 import loci.formats.FormatTools;
 import loci.formats.FormatWriter;
 import loci.formats.MetadataTools;
 import loci.formats.meta.MetadataRetrieve;
+import ome.scifio.io.RandomAccessInputStream;
+import ome.scifio.io.RandomAccessOutputStream;
 
 /**
  * ICSWriter is the file format writer for ICS files.  It writes ICS version 1

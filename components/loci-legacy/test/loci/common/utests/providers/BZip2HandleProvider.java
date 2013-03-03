@@ -40,8 +40,8 @@ import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
-import loci.common.BZip2Handle;
-import loci.common.IRandomAccess;
+import ome.scifio.io.BZip2Handle;
+import ome.scifio.io.IRandomAccess;
 
 /**
  * Implementation of IRandomAccessProvider that produces instances of

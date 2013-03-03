@@ -24,8 +24,8 @@
  */
 
 import java.io.*;
-import loci.common.ByteArrayHandle;
-import loci.common.Location;
+import ome.scifio.io.ByteArrayHandle;
+import ome.scifio.io.Location;
 import loci.common.services.DependencyException;
 import loci.common.services.ServiceException;
 import loci.common.services.ServiceFactory;

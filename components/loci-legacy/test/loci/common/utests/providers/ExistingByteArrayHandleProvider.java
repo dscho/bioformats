@@ -39,8 +39,8 @@ package loci.common.utests.providers;
 import java.io.IOException;
 import java.nio.ByteOrder;
 
-import loci.common.ByteArrayHandle;
-import loci.common.IRandomAccess;
+import ome.scifio.io.ByteArrayHandle;
+import ome.scifio.io.IRandomAccess;
 
 /**
  * Implementation of IRandomAccessProvider that produces instances of

@@ -40,13 +40,13 @@ import java.io.IOException;
 import java.util.Arrays;
 import java.util.Vector;
 
-import loci.common.RandomAccessInputStream;
 import loci.formats.CoreMetadata;
 import loci.formats.FormatException;
 import loci.formats.FormatReader;
 import loci.formats.FormatTools;
 import loci.formats.MetadataTools;
 import loci.formats.meta.MetadataStore;
+import ome.scifio.io.RandomAccessInputStream;
 
 /**
  * GIFReader is the file format reader for Graphics Interchange Format

@@ -40,8 +40,7 @@ import java.io.File;
 import java.io.IOException;
 import java.util.Vector;
 
-import loci.common.Location;
-import loci.common.RandomAccessInputStream;
+import ome.scifio.io.Location;
 import loci.formats.CoreMetadata;
 import loci.formats.FormatException;
 import loci.formats.FormatReader;
@@ -56,6 +55,7 @@ import loci.formats.codec.QTRLECodec;
 import loci.formats.codec.RPZACodec;
 import loci.formats.codec.ZlibCodec;
 import loci.formats.meta.MetadataStore;
+import ome.scifio.io.RandomAccessInputStream;
 
 /**
  * NativeQTReader is the file format reader for QuickTime movie files.

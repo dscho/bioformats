@@ -41,8 +41,8 @@ import static org.testng.AssertJUnit.assertEquals;
 import java.io.File;
 import java.io.IOException;
 
-import loci.common.BZip2Handle;
-import loci.common.GZipHandle;
+import ome.scifio.io.BZip2Handle;
+import ome.scifio.io.GZipHandle;
 import loci.common.ZipHandle;
 
 import org.testng.annotations.Test;

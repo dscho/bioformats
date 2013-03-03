@@ -43,7 +43,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Map.Entry;
 
-import loci.common.RandomAccessInputStream;
+import ome.scifio.io.RandomAccessInputStream;
 import loci.common.services.ServiceFactory;
 import loci.formats.ImageWriter;
 import loci.formats.ome.OMEXMLMetadata;

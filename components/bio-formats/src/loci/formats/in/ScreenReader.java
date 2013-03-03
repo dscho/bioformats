@@ -32,8 +32,8 @@ import java.util.Comparator;
 import java.util.List;
 import java.util.Vector;
 
-import loci.common.Location;
-import loci.common.RandomAccessInputStream;
+import ome.scifio.io.Location;
+import ome.scifio.io.RandomAccessInputStream;
 import loci.common.services.DependencyException;
 import loci.common.services.ServiceException;
 import loci.common.services.ServiceFactory;

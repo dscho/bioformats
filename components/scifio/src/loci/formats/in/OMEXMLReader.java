@@ -38,11 +38,9 @@ package loci.formats.in;
 
 import java.io.ByteArrayInputStream;
 import java.io.IOException;
-import java.util.Hashtable;
 import java.util.Vector;
 
 import loci.common.CBZip2InputStream;
-import loci.common.RandomAccessInputStream;
 import loci.common.services.DependencyException;
 import loci.common.services.ServiceException;
 import loci.common.services.ServiceFactory;
@@ -63,6 +61,7 @@ import loci.formats.meta.MetadataStore;
 import loci.formats.ome.OMEXMLMetadata;
 import loci.formats.services.OMEXMLService;
 import loci.formats.services.OMEXMLServiceImpl;
+import ome.scifio.io.RandomAccessInputStream;
 
 import org.xml.sax.Attributes;
 import org.xml.sax.Locator;

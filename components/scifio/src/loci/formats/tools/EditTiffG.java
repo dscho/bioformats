@@ -56,11 +56,11 @@ import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
 
 import loci.common.Constants;
-import loci.common.RandomAccessInputStream;
-import loci.common.RandomAccessOutputStream;
 import loci.formats.FormatException;
 import loci.formats.tiff.TiffParser;
 import loci.formats.tiff.TiffSaver;
+import ome.scifio.io.RandomAccessInputStream;
+import ome.scifio.io.RandomAccessOutputStream;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

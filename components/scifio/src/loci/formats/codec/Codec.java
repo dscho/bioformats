@@ -38,8 +38,8 @@ package loci.formats.codec;
 
 import java.io.IOException;
 
-import loci.common.RandomAccessInputStream;
 import loci.formats.FormatException;
+import ome.scifio.io.RandomAccessInputStream;
 
 /**
  * This class is an interface for any kind of compression or decompression.

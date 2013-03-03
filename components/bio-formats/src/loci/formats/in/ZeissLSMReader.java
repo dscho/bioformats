@@ -33,8 +33,8 @@ import java.util.Vector;
 
 import loci.common.DataTools;
 import loci.common.DateTools;
-import loci.common.Location;
-import loci.common.RandomAccessInputStream;
+import ome.scifio.io.Location;
+import ome.scifio.io.RandomAccessInputStream;
 import loci.common.Region;
 import loci.common.services.DependencyException;
 import loci.common.services.ServiceFactory;

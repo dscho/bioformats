@@ -40,13 +40,13 @@
         
 package loci.poi.util;
 
-import loci.common.*;
-
 import loci.poi.hssf.usermodel.HSSFSheet;
 import loci.poi.hssf.usermodel.HSSFWorkbook;
 import loci.poi.poifs.filesystem.POIFSFileSystem;
 
 import java.io.IOException;
+
+import ome.scifio.io.RandomAccessInputStream;
 
 /**
  * Dump out the aggregated escher records

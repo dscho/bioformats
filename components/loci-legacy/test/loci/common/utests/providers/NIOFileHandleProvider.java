@@ -41,8 +41,8 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.OutputStream;
 
-import loci.common.IRandomAccess;
-import loci.common.NIOFileHandle;
+import ome.scifio.io.IRandomAccess;
+import ome.scifio.io.NIOFileHandle;
 
 /**
  * Implementation of IRandomAccessProvider that produces instances of

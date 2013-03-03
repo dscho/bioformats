@@ -41,7 +41,7 @@ import static org.testng.AssertJUnit.*;
 import java.io.File;
 import java.io.IOException;
 
-import loci.common.Location;
+import ome.scifio.io.Location;
 import loci.formats.FormatException;
 import loci.formats.IFormatWriter;
 import loci.formats.ImageReader;

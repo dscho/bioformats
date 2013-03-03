@@ -40,10 +40,10 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Set;
 
-import loci.common.RandomAccessInputStream;
 import loci.formats.in.MetadataLevel;
 import loci.formats.in.MetadataOptions;
 import loci.formats.meta.MetadataStore;
+import ome.scifio.io.RandomAccessInputStream;
 
 /**
  * DelegateReader is a file format reader that selects which reader to use

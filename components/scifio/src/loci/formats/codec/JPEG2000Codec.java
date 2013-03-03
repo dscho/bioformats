@@ -46,7 +46,6 @@ import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 
 import loci.common.DataTools;
-import loci.common.RandomAccessInputStream;
 import loci.common.services.DependencyException;
 import loci.common.services.ServiceException;
 import loci.common.services.ServiceFactory;
@@ -56,6 +55,7 @@ import loci.formats.gui.AWTImageTools;
 import loci.formats.gui.UnsignedIntBuffer;
 import loci.formats.services.JAIIIOService;
 import loci.formats.services.JAIIIOServiceImpl;
+import ome.scifio.io.RandomAccessInputStream;
 
 /**
  * This class implements JPEG 2000 compression and decompression.

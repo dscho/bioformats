@@ -44,7 +44,7 @@ import java.net.URL;
 import java.util.Arrays;
 import java.util.List;
 
-import loci.common.Location;
+import ome.scifio.io.Location;
 
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;

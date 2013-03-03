@@ -29,11 +29,11 @@ import java.io.IOException;
 import java.util.Arrays;
 import java.util.ArrayList;
 
-import loci.common.ByteArrayHandle;
+import ome.scifio.io.ByteArrayHandle;
 import loci.common.DataTools;
-import loci.common.IRandomAccess;
-import loci.common.Location;
-import loci.common.RandomAccessInputStream;
+import ome.scifio.io.IRandomAccess;
+import ome.scifio.io.Location;
+import ome.scifio.io.RandomAccessInputStream;
 import loci.common.services.DependencyException;
 import loci.common.services.ServiceException;
 import loci.common.services.ServiceFactory;

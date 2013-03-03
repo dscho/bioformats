@@ -42,8 +42,8 @@ import java.io.IOException;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipOutputStream;
 
-import loci.common.IRandomAccess;
-import loci.common.ZipHandle;
+import ome.scifio.io.IRandomAccess;
+import ome.scifio.io.ZipHandle;
 
 /**
  * Implementation of IRandomAccessProvider that produces instances of
