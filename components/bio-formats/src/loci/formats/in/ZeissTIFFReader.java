@@ -176,7 +176,6 @@ public class ZeissTIFFReader extends BaseZeissReader {
       return false;
 
     try {
-      CaseInsensitiveLocation.invalidateCache();
       TIFFInfo info = evalFile(name);
     }
     catch (Exception e) {
