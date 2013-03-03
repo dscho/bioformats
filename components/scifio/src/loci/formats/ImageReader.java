@@ -44,11 +44,11 @@ import java.util.Hashtable;
 import java.util.List;
 import java.util.Set;
 
-import loci.common.Location;
 import loci.common.RandomAccessInputStream;
 import loci.formats.in.MetadataLevel;
 import loci.formats.in.MetadataOptions;
 import loci.formats.meta.MetadataStore;
+import ome.scifio.io.Location;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
