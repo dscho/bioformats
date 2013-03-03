@@ -39,9 +39,9 @@ package loci.formats.codec;
 import java.io.IOException;
 import java.util.HashMap;
 
+import loci.common.RandomAccessInputStream;
 import loci.formats.FormatException;
 import loci.formats.UnsupportedCompressionException;
-import ome.scifio.io.RandomAccessInputStream;
 
 /**
  * This class implements Huffman decoding.

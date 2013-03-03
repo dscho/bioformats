@@ -45,7 +45,7 @@ import java.io.IOException;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 
-import ome.scifio.io.RandomAccessInputStream;
+import loci.common.RandomAccessInputStream;
 
 import loci.poi.poifs.filesystem.POIFSFileSystem;
 import loci.poi.hssf.usermodel.*;

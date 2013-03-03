@@ -28,13 +28,15 @@ package loci.formats.in;
 import java.io.IOException;
 import java.util.ArrayList;
 
+import loci.common.RandomAccessInputStream;
+import loci.common.Region;
 import loci.formats.CoreMetadata;
 import loci.formats.FormatException;
 import loci.formats.FormatReader;
 import loci.formats.FormatTools;
 import loci.formats.MetadataTools;
 import loci.formats.meta.MetadataStore;
-import ome.scifio.io.RandomAccessInputStream;
+
 import ome.xml.model.primitives.Color;
 import ome.xml.model.primitives.NonNegativeInteger;
 import ome.xml.model.primitives.PositiveFloat;

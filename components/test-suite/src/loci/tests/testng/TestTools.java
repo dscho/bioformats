@@ -40,12 +40,12 @@ import java.util.Comparator;
 import java.util.Date;
 import java.util.List;
 
-import ome.scifio.io.ByteArrayHandle;
+import loci.common.ByteArrayHandle;
 import loci.common.Constants;
 import loci.common.DataTools;
 import loci.common.DateTools;
-import ome.scifio.io.Location;
-import ome.scifio.io.RandomAccessInputStream;
+import loci.common.Location;
+import loci.common.RandomAccessInputStream;
 import loci.formats.IFormatReader;
 import loci.formats.IFormatWriter;
 import loci.formats.ImageReader;

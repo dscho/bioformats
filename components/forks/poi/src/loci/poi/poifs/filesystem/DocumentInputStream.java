@@ -42,8 +42,7 @@
 package loci.poi.poifs.filesystem;
 
 import java.io.*;
-
-import ome.scifio.io.RandomAccessInputStream;
+import loci.common.*;
 import loci.poi.util.*;
 
 /**

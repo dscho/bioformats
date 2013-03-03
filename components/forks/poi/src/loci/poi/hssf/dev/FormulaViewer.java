@@ -52,7 +52,7 @@ import java.io.FileInputStream;
 //import java.io.*;
 import java.util.List;
 
-import ome.scifio.io.RandomAccessInputStream;
+import loci.common.*;
 
 import loci.poi.poifs.filesystem.POIFSFileSystem;
 import loci.poi.hssf.record.*;

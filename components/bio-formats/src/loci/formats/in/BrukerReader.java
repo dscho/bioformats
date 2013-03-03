@@ -25,22 +25,24 @@
 
 package loci.formats.in;
 
+import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
 
+import ome.xml.model.primitives.Timestamp;
+
 import loci.common.DataTools;
 import loci.common.DateTools;
-import ome.scifio.io.Location;
+import loci.common.Location;
+import loci.common.RandomAccessInputStream;
 import loci.formats.CoreMetadata;
 import loci.formats.FormatException;
 import loci.formats.FormatReader;
 import loci.formats.FormatTools;
 import loci.formats.MetadataTools;
 import loci.formats.meta.MetadataStore;
-import ome.scifio.io.RandomAccessInputStream;
-import ome.xml.model.primitives.Timestamp;
 
 /**
  * BrukerReader is the file format reader for Bruker MRI files.

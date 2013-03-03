@@ -44,12 +44,12 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.TreeSet;
 
+import loci.common.ByteArrayHandle;
+import loci.common.RandomAccessInputStream;
+import loci.common.RandomAccessOutputStream;
 import loci.formats.FormatException;
 import loci.formats.FormatTools;
 import loci.formats.codec.CodecOptions;
-import ome.scifio.io.ByteArrayHandle;
-import ome.scifio.io.RandomAccessInputStream;
-import ome.scifio.io.RandomAccessOutputStream;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

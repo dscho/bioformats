@@ -35,7 +35,7 @@ import java.util.StringTokenizer;
 import java.util.Vector;
 
 import loci.common.Constants;
-import ome.scifio.io.Location;
+import loci.common.Location;
 import loci.common.services.AbstractService;
 import loci.common.services.ServiceException;
 import ucar.ma2.Array;

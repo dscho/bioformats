@@ -39,7 +39,7 @@ import java.util.List;
 import loci.common.Constants;
 import loci.common.DataTools;
 import loci.common.DateTools;
-import ome.scifio.io.Location;
+import loci.common.Location;
 import loci.common.services.DependencyException;
 import loci.common.services.ServiceException;
 import loci.common.services.ServiceFactory;

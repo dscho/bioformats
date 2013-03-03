@@ -50,13 +50,13 @@ import javax.imageio.ImageIO;
 
 import loci.common.Constants;
 import loci.common.DataTools;
+import loci.common.RandomAccessInputStream;
 import loci.formats.CoreMetadata;
 import loci.formats.FormatException;
 import loci.formats.FormatTools;
 import loci.formats.MetadataTools;
 import loci.formats.gui.AWTImageTools;
 import loci.formats.meta.MetadataStore;
-import ome.scifio.io.RandomAccessInputStream;
 
 /**
  * APNGReader is the file format reader for

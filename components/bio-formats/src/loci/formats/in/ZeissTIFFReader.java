@@ -113,7 +113,7 @@ import java.util.Iterator;
 
 import loci.common.DataTools;
 import loci.common.CaseInsensitiveLocation;
-import ome.scifio.io.RandomAccessInputStream;
+import loci.common.RandomAccessInputStream;
 import loci.common.xml.XMLTools;
 import loci.formats.FormatException;
 import loci.formats.FormatTools;

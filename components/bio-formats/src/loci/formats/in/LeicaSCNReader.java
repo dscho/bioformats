@@ -26,31 +26,34 @@
 package loci.formats.in;
 
 import java.io.IOException;
+
+import java.util.Stack;
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.Stack;
 
-import loci.common.xml.XMLTools;
-import loci.formats.CoreMetadata;
-import loci.formats.FormatException;
-import loci.formats.FormatTools;
-import loci.formats.MetadataTools;
-import loci.formats.meta.MetadataStore;
-import loci.formats.tiff.IFD;
-import loci.formats.tiff.PhotoInterp;
-import loci.formats.tiff.TiffParser;
-import ome.scifio.io.RandomAccessInputStream;
+import org.xml.sax.Attributes;
+import org.xml.sax.SAXException;
+import org.xml.sax.helpers.DefaultHandler;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import ome.xml.model.enums.IlluminationType;
 import ome.xml.model.primitives.NonNegativeInteger;
 import ome.xml.model.primitives.PositiveFloat;
 import ome.xml.model.primitives.PositiveInteger;
 import ome.xml.model.primitives.Timestamp;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-import org.xml.sax.Attributes;
-import org.xml.sax.SAXException;
-import org.xml.sax.helpers.DefaultHandler;
+import loci.common.RandomAccessInputStream;
+import loci.common.xml.XMLTools;
+import loci.formats.CoreMetadata;
+import loci.formats.MetadataTools;
+import loci.formats.FormatException;
+import loci.formats.FormatTools;
+import loci.formats.meta.MetadataStore;
+import loci.formats.tiff.IFD;
+import loci.formats.tiff.PhotoInterp;
+import loci.formats.tiff.TiffParser;
 
 /**
  * LeicaSCNReader is the file format reader for Leica SCN TIFF files.

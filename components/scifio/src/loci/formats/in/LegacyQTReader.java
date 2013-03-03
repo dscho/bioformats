@@ -44,7 +44,7 @@ import java.awt.image.ImageProducer;
 import java.io.IOException;
 import java.util.Vector;
 
-import ome.scifio.io.Location;
+import loci.common.Location;
 import loci.common.ReflectException;
 import loci.common.ReflectedUniverse;
 import loci.formats.CoreMetadata;

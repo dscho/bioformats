@@ -41,6 +41,7 @@ import java.io.ByteArrayInputStream;
 import java.io.IOException;
 
 import loci.common.DataTools;
+import loci.common.RandomAccessInputStream;
 import loci.common.services.DependencyException;
 import loci.common.services.ServiceException;
 import loci.common.services.ServiceFactory;
@@ -49,7 +50,6 @@ import loci.formats.MissingLibraryException;
 import loci.formats.UnsupportedCompressionException;
 import loci.formats.services.LuraWaveService;
 import loci.formats.services.LuraWaveServiceImpl;
-import ome.scifio.io.RandomAccessInputStream;
 
 /**
  * This class provides LuraWave decompression, using LuraWave's Java decoding

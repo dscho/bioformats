@@ -36,8 +36,8 @@ import javax.xml.parsers.ParserConfigurationException;
 
 import loci.common.Constants;
 import loci.common.DateTools;
-import ome.scifio.io.Location;
-import ome.scifio.io.RandomAccessInputStream;
+import loci.common.Location;
+import loci.common.RandomAccessInputStream;
 import loci.common.Region;
 import loci.common.xml.XMLTools;
 import loci.formats.CoreMetadata;

@@ -36,7 +36,7 @@ import loci.common.IniList;
 import loci.common.IniParser;
 import loci.common.IniTable;
 import loci.common.IniWriter;
-import ome.scifio.io.Location;
+import loci.common.Location;
 import loci.formats.FormatException;
 import loci.formats.FormatTools;
 import loci.formats.IFormatReader;

@@ -41,7 +41,7 @@ import static org.testng.AssertJUnit.assertNotNull;
 
 import java.io.IOException;
 
-import ome.scifio.io.Location;
+import loci.common.Location;
 import loci.formats.ChannelFiller;
 import loci.formats.ChannelMerger;
 import loci.formats.ChannelSeparator;

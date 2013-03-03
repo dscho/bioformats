@@ -40,7 +40,7 @@ import java.io.IOException;
 import java.util.Hashtable;
 import java.util.List;
 
-import ome.scifio.io.RandomAccessInputStream;
+import loci.common.RandomAccessInputStream;
 import loci.formats.meta.MetadataStore;
 
 /**

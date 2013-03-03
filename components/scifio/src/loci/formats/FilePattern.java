@@ -46,7 +46,7 @@ import java.util.regex.Pattern;
 import java.util.regex.PatternSyntaxException;
 
 import loci.common.DataTools;
-import ome.scifio.io.Location;
+import loci.common.Location;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

@@ -42,7 +42,7 @@ import java.io.File;
 import java.util.ArrayList;
 
 import loci.common.DataTools;
-import ome.scifio.io.Location;
+import loci.common.Location;
 import loci.formats.IFormatWriter;
 import loci.formats.ImageReader;
 import loci.formats.MetadataTools;

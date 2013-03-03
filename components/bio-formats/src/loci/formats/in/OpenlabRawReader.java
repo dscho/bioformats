@@ -27,15 +27,16 @@ package loci.formats.in;
 
 import java.io.IOException;
 
+import ome.xml.model.primitives.Timestamp;
+
 import loci.common.DateTools;
+import loci.common.RandomAccessInputStream;
 import loci.formats.CoreMetadata;
 import loci.formats.FormatException;
 import loci.formats.FormatReader;
 import loci.formats.FormatTools;
 import loci.formats.MetadataTools;
 import loci.formats.meta.MetadataStore;
-import ome.scifio.io.RandomAccessInputStream;
-import ome.xml.model.primitives.Timestamp;
 
 /**
  * OpenlabRawReader is the file format reader for Openlab RAW files.

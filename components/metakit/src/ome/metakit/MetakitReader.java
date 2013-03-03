@@ -28,7 +28,7 @@ package ome.metakit;
 import java.io.IOException;
 
 import loci.common.DataTools;
-import ome.scifio.io.RandomAccessInputStream;
+import loci.common.RandomAccessInputStream;
 
 /**
  * Top-level reader for Metakit database files.

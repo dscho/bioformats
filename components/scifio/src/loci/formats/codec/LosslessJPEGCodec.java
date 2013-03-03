@@ -40,9 +40,9 @@ import java.io.IOException;
 import java.util.Vector;
 
 import loci.common.DataTools;
+import loci.common.RandomAccessInputStream;
 import loci.formats.FormatException;
 import loci.formats.UnsupportedCompressionException;
-import ome.scifio.io.RandomAccessInputStream;
 
 /**
  * Decompresses lossless JPEG images.

@@ -45,6 +45,8 @@
  */
 package loci.poi.hssf.usermodel;
 
+import loci.common.*;
+
 import loci.poi.POIDocument;
 import loci.poi.ddf.EscherBSERecord;
 import loci.poi.ddf.EscherBitmapBlip;
@@ -71,8 +73,6 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Stack;
-
-import ome.scifio.io.RandomAccessInputStream;
 
 /**
  * High level representation of a workbook.  This is the first object most users

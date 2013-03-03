@@ -38,8 +38,8 @@ package loci.formats.codec;
 
 import java.io.IOException;
 
+import loci.common.RandomAccessInputStream;
 import loci.formats.FormatException;
-import ome.scifio.io.RandomAccessInputStream;
 
 /**
  * Implements encoding (compress) and decoding (decompress) methods
@@ -154,8 +154,7 @@ public class Base64Codec extends BaseCodec {
   }
 
   /* @see Codec#decompress(RandomAccessInputStream, CodecOptions) */
-  @Override
-public byte[] decompress(RandomAccessInputStream in, CodecOptions options)
+  public byte[] decompress(RandomAccessInputStream in, CodecOptions options)
     throws FormatException, IOException
   {
     if (in == null)

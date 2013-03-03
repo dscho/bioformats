@@ -40,9 +40,9 @@ import static org.testng.AssertJUnit.*;
 
 import java.util.ArrayList;
 
-import ome.scifio.io.ByteArrayHandle;
+import loci.common.ByteArrayHandle;
 import loci.common.DataTools;
-import ome.scifio.io.Location;
+import loci.common.Location;
 import loci.formats.IFormatWriter;
 import loci.formats.ImageReader;
 import loci.formats.MetadataTools;

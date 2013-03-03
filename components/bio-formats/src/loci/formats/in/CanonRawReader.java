@@ -27,6 +27,8 @@ package loci.formats.in;
 
 import java.io.IOException;
 
+import loci.common.DataTools;
+import loci.common.RandomAccessInputStream;
 import loci.formats.CoreMetadata;
 import loci.formats.FormatException;
 import loci.formats.FormatReader;
@@ -35,7 +37,6 @@ import loci.formats.ImageTools;
 import loci.formats.MetadataTools;
 import loci.formats.codec.BitBuffer;
 import loci.formats.meta.MetadataStore;
-import ome.scifio.io.RandomAccessInputStream;
 
 /**
  * CanonRawReader is the file format reader for Canon RAW files.

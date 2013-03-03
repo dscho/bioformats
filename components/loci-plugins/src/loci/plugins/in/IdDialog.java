@@ -34,7 +34,7 @@ import ij.io.OpenDialog;
 import java.awt.TextField;
 import java.util.Vector;
 
-import ome.scifio.io.Location;
+import loci.common.Location;
 
 /**
  * Bio-Formats Importer id chooser dialog box.

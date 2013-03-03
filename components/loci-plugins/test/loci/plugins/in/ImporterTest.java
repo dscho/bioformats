@@ -42,7 +42,7 @@ import java.awt.Color;
 import java.awt.image.IndexColorModel;
 import java.io.IOException;
 
-import ome.scifio.io.Location;
+import loci.common.Location;
 import loci.common.Region;
 import loci.formats.FormatException;
 import loci.formats.FormatTools;

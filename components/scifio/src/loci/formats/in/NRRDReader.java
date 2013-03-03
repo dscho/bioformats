@@ -39,7 +39,8 @@ package loci.formats.in;
 import java.io.File;
 import java.io.IOException;
 
-import ome.scifio.io.Location;
+import loci.common.Location;
+import loci.common.RandomAccessInputStream;
 import loci.formats.ClassList;
 import loci.formats.CoreMetadata;
 import loci.formats.FormatException;
@@ -50,7 +51,6 @@ import loci.formats.ImageReader;
 import loci.formats.MetadataTools;
 import loci.formats.UnsupportedCompressionException;
 import loci.formats.meta.MetadataStore;
-import ome.scifio.io.RandomAccessInputStream;
 import ome.xml.model.primitives.PositiveFloat;
 
 /**

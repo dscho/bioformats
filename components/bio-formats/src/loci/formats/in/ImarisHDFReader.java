@@ -29,6 +29,8 @@ import java.io.IOException;
 import java.util.Vector;
 
 import loci.common.DataTools;
+import loci.common.Location;
+import loci.common.RandomAccessInputStream;
 import loci.common.services.DependencyException;
 import loci.common.services.ServiceException;
 import loci.common.services.ServiceFactory;
@@ -41,8 +43,6 @@ import loci.formats.MissingLibraryException;
 import loci.formats.meta.MetadataStore;
 import loci.formats.services.NetCDFService;
 import loci.formats.services.NetCDFServiceImpl;
-import ome.scifio.io.Location;
-import ome.scifio.io.RandomAccessInputStream;
 import ome.xml.model.primitives.Color;
 import ome.xml.model.primitives.PositiveFloat;
 

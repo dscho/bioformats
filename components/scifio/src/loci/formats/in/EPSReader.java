@@ -38,6 +38,7 @@ package loci.formats.in;
 
 import java.io.IOException;
 
+import loci.common.RandomAccessInputStream;
 import loci.formats.CoreMetadata;
 import loci.formats.FormatException;
 import loci.formats.FormatReader;
@@ -47,7 +48,6 @@ import loci.formats.meta.MetadataStore;
 import loci.formats.tiff.IFD;
 import loci.formats.tiff.IFDList;
 import loci.formats.tiff.TiffParser;
-import ome.scifio.io.RandomAccessInputStream;
 
 /**
  * Reader is the file format reader for Encapsulated PostScript (EPS) files.

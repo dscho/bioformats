@@ -25,7 +25,7 @@
 
 import java.io.*;
 import java.util.Hashtable;
-import ome.scifio.io.RandomAccessInputStream;
+import loci.common.RandomAccessInputStream;
 import loci.formats.tiff.*;
 
 /**

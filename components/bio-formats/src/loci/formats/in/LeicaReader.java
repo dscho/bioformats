@@ -27,15 +27,16 @@ package loci.formats.in;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.ArrayList;
 import java.util.Hashtable;
 import java.util.StringTokenizer;
 import java.util.Vector;
 
 import loci.common.DataTools;
 import loci.common.DateTools;
-import ome.scifio.io.Location;
+import loci.common.Location;
+import loci.common.RandomAccessInputStream;
 import loci.formats.AxisGuesser;
 import loci.formats.CoreMetadata;
 import loci.formats.FilePattern;
@@ -48,7 +49,7 @@ import loci.formats.tiff.IFD;
 import loci.formats.tiff.IFDList;
 import loci.formats.tiff.TiffConstants;
 import loci.formats.tiff.TiffParser;
-import ome.scifio.io.RandomAccessInputStream;
+
 import ome.xml.model.enums.Correction;
 import ome.xml.model.enums.Immersion;
 import ome.xml.model.primitives.Color;

@@ -29,8 +29,8 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.Vector;
 
+import loci.common.RandomAccessInputStream;
 import loci.common.services.Service;
-import ome.scifio.io.RandomAccessInputStream;
 
 /**
  * Interface defining methods for reading Microsoft OLE2 documents using

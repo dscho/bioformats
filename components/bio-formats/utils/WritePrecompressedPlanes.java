@@ -25,8 +25,8 @@
 
 import java.io.IOException;
 
-import ome.scifio.io.RandomAccessInputStream;
-import ome.scifio.io.RandomAccessOutputStream;
+import loci.common.RandomAccessInputStream;
+import loci.common.RandomAccessOutputStream;
 import loci.formats.FormatException;
 import loci.formats.FormatTools;
 import loci.formats.ImageReader;

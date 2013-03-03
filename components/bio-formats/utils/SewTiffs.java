@@ -23,8 +23,8 @@
  * #L%
  */
 
-import ome.scifio.io.Location;
-import ome.scifio.io.RandomAccessInputStream;
+import loci.common.Location;
+import loci.common.RandomAccessInputStream;
 import loci.common.services.ServiceFactory;
 import loci.formats.FilePattern;
 import loci.formats.in.TiffReader;

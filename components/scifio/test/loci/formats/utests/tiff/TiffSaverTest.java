@@ -42,9 +42,9 @@ import static org.testng.AssertJUnit.assertTrue;
 
 import java.io.IOException;
 
-import ome.scifio.io.ByteArrayHandle;
-import ome.scifio.io.RandomAccessInputStream;
-import ome.scifio.io.RandomAccessOutputStream;
+import loci.common.ByteArrayHandle;
+import loci.common.RandomAccessInputStream;
+import loci.common.RandomAccessOutputStream;
 import loci.formats.FormatException;
 import loci.formats.tiff.IFD;
 import loci.formats.tiff.TiffParser;

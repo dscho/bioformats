@@ -45,7 +45,7 @@ import java.io.*;
 
 import java.util.*;
 
-import ome.scifio.io.RandomAccessInputStream;
+import loci.common.*;
 
 import loci.poi.hpsf.ClassID;
 import loci.poi.util.*;

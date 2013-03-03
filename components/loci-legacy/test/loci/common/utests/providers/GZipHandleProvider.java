@@ -42,8 +42,8 @@ import java.io.IOException;
 import java.io.OutputStream;
 import java.util.zip.GZIPOutputStream;
 
-import ome.scifio.io.GZipHandle;
-import ome.scifio.io.IRandomAccess;
+import loci.common.GZipHandle;
+import loci.common.IRandomAccess;
 
 /**
  * Implementation of IRandomAccessProvider that produces instances of

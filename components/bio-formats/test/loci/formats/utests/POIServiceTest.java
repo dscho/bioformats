@@ -33,7 +33,7 @@ import java.io.IOException;
 import java.net.URL;
 import java.util.Vector;
 
-import ome.scifio.io.RandomAccessInputStream;
+import loci.common.RandomAccessInputStream;
 import loci.common.services.DependencyException;
 import loci.common.services.ServiceFactory;
 import loci.formats.services.POIService;

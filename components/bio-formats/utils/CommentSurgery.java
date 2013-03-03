@@ -23,7 +23,7 @@
  * #L%
  */
 
-import ome.scifio.io.RandomAccessInputStream;
+import loci.common.RandomAccessInputStream;
 import loci.formats.tiff.TiffParser;
 import loci.formats.tiff.TiffSaver;
 

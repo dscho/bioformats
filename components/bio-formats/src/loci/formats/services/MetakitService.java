@@ -27,7 +27,7 @@ package loci.formats.services;
 
 import java.io.IOException;
 
-import ome.scifio.io.RandomAccessInputStream;
+import loci.common.RandomAccessInputStream;
 import loci.common.services.Service;
 
 /**

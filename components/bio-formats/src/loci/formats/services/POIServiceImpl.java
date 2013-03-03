@@ -32,7 +32,7 @@ import java.util.Hashtable;
 import java.util.Iterator;
 import java.util.Vector;
 
-import ome.scifio.io.RandomAccessInputStream;
+import loci.common.RandomAccessInputStream;
 import loci.common.services.AbstractService;
 import loci.poi.poifs.filesystem.DirectoryEntry;
 import loci.poi.poifs.filesystem.DocumentEntry;

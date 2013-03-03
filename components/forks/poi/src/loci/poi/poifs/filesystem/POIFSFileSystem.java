@@ -45,7 +45,7 @@ import java.io.*;
 
 import java.util.*;
 
-import ome.scifio.io.RandomAccessInputStream;
+import loci.common.*;
 
 import loci.poi.poifs.common.POIFSConstants;
 import loci.poi.poifs.dev.POIFSViewable;

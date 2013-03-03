@@ -45,7 +45,7 @@ import org.slf4j.LoggerFactory;
 
 import loci.common.Constants;
 import loci.common.DataTools;
-import ome.scifio.io.Location;
+import loci.common.Location;
 import loci.common.xml.XMLTools;
 import loci.formats.CoreMetadata;
 import loci.formats.FormatException;

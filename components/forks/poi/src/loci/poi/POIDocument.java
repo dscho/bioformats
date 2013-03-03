@@ -46,7 +46,7 @@ import java.io.IOException;
 import java.util.Iterator;
 import java.util.List;
 
-import ome.scifio.io.RandomAccessInputStream;
+import loci.common.*;
 
 import loci.poi.hpsf.DocumentSummaryInformation;
 import loci.poi.hpsf.MutablePropertySet;

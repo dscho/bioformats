@@ -29,13 +29,13 @@ import java.io.IOException;
 import java.math.BigInteger;
 
 import loci.common.Constants;
+import loci.common.RandomAccessInputStream;
 import loci.formats.CoreMetadata;
 import loci.formats.FormatException;
 import loci.formats.FormatReader;
 import loci.formats.FormatTools;
 import loci.formats.MetadataTools;
 import loci.formats.meta.MetadataStore;
-import ome.scifio.io.RandomAccessInputStream;
 import ome.xml.model.primitives.PositiveFloat;
 
 /**

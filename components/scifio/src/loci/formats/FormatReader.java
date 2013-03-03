@@ -45,7 +45,8 @@ import java.util.Set;
 import java.util.Vector;
 
 import loci.common.DataTools;
-import ome.scifio.io.Location;
+import loci.common.Location;
+import loci.common.RandomAccessInputStream;
 import loci.common.services.DependencyException;
 import loci.common.services.ServiceFactory;
 import loci.formats.in.DefaultMetadataOptions;
@@ -57,7 +58,7 @@ import loci.formats.meta.IMetadata;
 import loci.formats.meta.MetadataStore;
 import loci.formats.ome.OMEXMLMetadata;
 import loci.formats.services.OMEXMLService;
-import ome.scifio.io.RandomAccessInputStream;
+
 import ome.xml.model.AffineTransform;
 import ome.xml.model.enums.AcquisitionMode;
 import ome.xml.model.enums.ArcType;

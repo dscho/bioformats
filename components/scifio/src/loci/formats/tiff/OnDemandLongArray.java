@@ -37,7 +37,7 @@
 package loci.formats.tiff;
 
 import java.io.IOException;
-import ome.scifio.io.RandomAccessInputStream;
+import loci.common.RandomAccessInputStream;
 
 /**
  *

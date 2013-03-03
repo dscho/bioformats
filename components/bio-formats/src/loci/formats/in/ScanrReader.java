@@ -34,10 +34,10 @@ import java.util.Comparator;
 import java.util.Hashtable;
 import java.util.Vector;
 
-import ome.scifio.io.ByteArrayHandle;
+import loci.common.ByteArrayHandle;
 import loci.common.DataTools;
-import ome.scifio.io.Location;
-import ome.scifio.io.RandomAccessInputStream;
+import loci.common.Location;
+import loci.common.RandomAccessInputStream;
 import loci.common.xml.BaseHandler;
 import loci.common.xml.XMLTools;
 import loci.formats.CoreMetadata;

@@ -29,7 +29,7 @@ import static org.testng.AssertJUnit.fail;
 
 import java.io.File;
 
-import ome.scifio.io.Location;
+import loci.common.Location;
 import loci.formats.ChannelFiller;
 import loci.formats.ChannelSeparator;
 import loci.formats.FormatTools;

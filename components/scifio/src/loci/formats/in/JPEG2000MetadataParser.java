@@ -39,14 +39,14 @@ package loci.formats.in;
 import java.io.IOException;
 import java.util.ArrayList;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import loci.common.DataTools;
+import loci.common.RandomAccessInputStream;
 import loci.formats.FormatTools;
 import loci.formats.codec.JPEG2000BoxType;
 import loci.formats.codec.JPEG2000SegmentMarker;
-import ome.scifio.io.RandomAccessInputStream;
-
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 /**
  * A parser for JPEG 2000 metadata.

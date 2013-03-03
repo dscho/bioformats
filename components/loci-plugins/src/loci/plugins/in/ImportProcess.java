@@ -34,7 +34,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.StringTokenizer;
 
-import ome.scifio.io.Location;
+import loci.common.Location;
 import loci.common.ReflectedUniverse;
 import loci.common.Region;
 import loci.common.StatusEvent;

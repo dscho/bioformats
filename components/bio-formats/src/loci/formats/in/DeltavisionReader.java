@@ -30,7 +30,8 @@ import java.util.Vector;
 
 import loci.common.DataTools;
 import loci.common.DateTools;
-import ome.scifio.io.Location;
+import loci.common.Location;
+import loci.common.RandomAccessInputStream;
 import loci.formats.CoreMetadata;
 import loci.formats.FormatException;
 import loci.formats.FormatReader;
@@ -38,7 +39,7 @@ import loci.formats.FormatTools;
 import loci.formats.MetadataTools;
 import loci.formats.meta.IMinMaxStore;
 import loci.formats.meta.MetadataStore;
-import ome.scifio.io.RandomAccessInputStream;
+
 import ome.xml.model.enums.Correction;
 import ome.xml.model.enums.Immersion;
 import ome.xml.model.primitives.PositiveFloat;

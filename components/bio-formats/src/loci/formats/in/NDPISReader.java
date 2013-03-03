@@ -29,8 +29,8 @@ import java.io.IOException;
 import java.util.ArrayList;
 
 import loci.common.DataTools;
-import ome.scifio.io.Location;
-import ome.scifio.io.RandomAccessInputStream;
+import loci.common.Location;
+import loci.common.RandomAccessInputStream;
 import loci.formats.ChannelSeparator;
 import loci.formats.CoreMetadata;
 import loci.formats.FormatException;

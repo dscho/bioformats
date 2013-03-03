@@ -51,11 +51,13 @@ import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.ListIterator;
 
-import ome.scifio.io.RandomAccessInputStream;
+import loci.common.*;
 
 import loci.poi.poifs.filesystem.DirectoryEntry;
 import loci.poi.poifs.filesystem.Entry;
 import loci.poi.util.*;
+
+
 
 /**
  * <p>Adds writing support to the {@link PropertySet} class.</p>

@@ -39,7 +39,7 @@ package loci.formats.out;
 import java.io.IOException;
 import java.util.Vector;
 
-import ome.scifio.io.RandomAccessInputStream;
+import loci.common.RandomAccessInputStream;
 import loci.formats.FormatException;
 import loci.formats.FormatTools;
 import loci.formats.FormatWriter;

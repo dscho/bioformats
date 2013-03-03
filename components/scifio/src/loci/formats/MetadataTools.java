@@ -41,7 +41,7 @@ import java.util.Hashtable;
 import java.util.Map;
 
 import loci.common.DateTools;
-import ome.scifio.io.Location;
+import loci.common.Location;
 import loci.common.services.DependencyException;
 import loci.common.services.ServiceException;
 import loci.common.services.ServiceFactory;

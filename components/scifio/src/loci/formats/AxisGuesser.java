@@ -39,7 +39,7 @@ package loci.formats;
 import java.io.IOException;
 import java.math.BigInteger;
 
-import ome.scifio.io.Location;
+import loci.common.Location;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

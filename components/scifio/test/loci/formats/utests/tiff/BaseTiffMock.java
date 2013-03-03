@@ -39,15 +39,16 @@ package loci.formats.utests.tiff;
 import java.io.IOException;
 import java.nio.ByteOrder;
 
+import loci.common.ByteArrayHandle;
+import loci.common.RandomAccessInputStream;
+import loci.common.RandomAccessOutputStream;
 import loci.formats.FormatException;
 import loci.formats.tiff.IFD;
+import loci.formats.tiff.IFDType;
 import loci.formats.tiff.PhotoInterp;
 import loci.formats.tiff.TiffParser;
 import loci.formats.tiff.TiffRational;
 import loci.formats.tiff.TiffSaver;
-import ome.scifio.io.ByteArrayHandle;
-import ome.scifio.io.RandomAccessInputStream;
-import ome.scifio.io.RandomAccessOutputStream;
 
 /**
  * <dl><dt><b>Source code:</b></dt>

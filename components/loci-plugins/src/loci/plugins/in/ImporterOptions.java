@@ -34,7 +34,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-import ome.scifio.io.Location;
+import loci.common.Location;
 import loci.common.Region;
 import loci.plugins.prefs.DoubleOption;
 import loci.plugins.prefs.OptionsList;

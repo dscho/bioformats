@@ -29,7 +29,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 
 import loci.common.Constants;
-import ome.scifio.io.RandomAccessInputStream;
+import loci.common.RandomAccessInputStream;
 
 /**
  * Class representating a column mapping in a Metakit database file.

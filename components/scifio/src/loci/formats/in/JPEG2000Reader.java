@@ -39,6 +39,10 @@ package loci.formats.in;
 import java.io.IOException;
 import java.util.ArrayList;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import loci.common.RandomAccessInputStream;
 import loci.formats.CoreMetadata;
 import loci.formats.FormatException;
 import loci.formats.FormatReader;
@@ -48,10 +52,6 @@ import loci.formats.codec.JPEG2000BoxType;
 import loci.formats.codec.JPEG2000Codec;
 import loci.formats.codec.JPEG2000CodecOptions;
 import loci.formats.meta.MetadataStore;
-import ome.scifio.io.RandomAccessInputStream;
-
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 /**
  * JPEG2000Reader is the file format reader for JPEG-2000 images.

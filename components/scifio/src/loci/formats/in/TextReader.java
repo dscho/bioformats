@@ -46,9 +46,9 @@ import java.util.List;
 
 import loci.common.Constants;
 import loci.common.DataTools;
-import ome.scifio.io.IRandomAccess;
-import ome.scifio.io.Location;
-import ome.scifio.io.RandomAccessInputStream;
+import loci.common.IRandomAccess;
+import loci.common.Location;
+import loci.common.RandomAccessInputStream;
 import loci.formats.CoreMetadata;
 import loci.formats.FormatException;
 import loci.formats.FormatReader;

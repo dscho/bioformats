@@ -41,7 +41,7 @@ import static org.testng.AssertJUnit.fail;
 
 import java.io.IOException;
 
-import ome.scifio.io.IRandomAccess;
+import loci.common.IRandomAccess;
 import loci.common.utests.providers.IRandomAccessProvider;
 import loci.common.utests.providers.IRandomAccessProviderFactory;
 

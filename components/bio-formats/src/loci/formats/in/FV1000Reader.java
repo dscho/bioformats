@@ -34,13 +34,14 @@ import java.util.HashMap;
 import java.util.Hashtable;
 import java.util.Vector;
 
-import ome.scifio.io.ByteArrayHandle;
+import loci.common.ByteArrayHandle;
 import loci.common.DataTools;
 import loci.common.DateTools;
 import loci.common.IniList;
 import loci.common.IniParser;
 import loci.common.IniTable;
-import ome.scifio.io.Location;
+import loci.common.Location;
+import loci.common.RandomAccessInputStream;
 import loci.common.services.DependencyException;
 import loci.common.services.ServiceFactory;
 import loci.formats.CoreMetadata;
@@ -53,7 +54,7 @@ import loci.formats.services.POIService;
 import loci.formats.tiff.IFD;
 import loci.formats.tiff.IFDList;
 import loci.formats.tiff.TiffParser;
-import ome.scifio.io.RandomAccessInputStream;
+
 import ome.xml.model.primitives.NonNegativeInteger;
 import ome.xml.model.primitives.PositiveFloat;
 import ome.xml.model.primitives.PositiveInteger;

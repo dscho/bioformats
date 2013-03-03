@@ -33,8 +33,8 @@ import java.util.Vector;
 
 import loci.common.DataTools;
 import loci.common.DateTools;
-import ome.scifio.io.Location;
-import ome.scifio.io.RandomAccessInputStream;
+import loci.common.Location;
+import loci.common.RandomAccessInputStream;
 import loci.common.xml.XMLTools;
 import loci.formats.AxisGuesser;
 import loci.formats.CoreMetadata;

@@ -39,7 +39,7 @@ package loci.formats.in;
 import java.io.IOException;
 import java.util.Hashtable;
 
-import ome.scifio.io.RandomAccessInputStream;
+import loci.common.RandomAccessInputStream;
 import loci.common.Region;
 import loci.formats.CoreMetadata;
 import loci.formats.FormatException;

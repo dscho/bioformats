@@ -43,7 +43,7 @@ package loci.poi.hssf.dev;
 import java.io.InputStream;
 import java.io.IOException;
 
-import ome.scifio.io.RandomAccessInputStream;
+import loci.common.*;
 
 import loci.poi.poifs.filesystem.POIFSFileSystem;
 import loci.poi.hssf.record.Record;

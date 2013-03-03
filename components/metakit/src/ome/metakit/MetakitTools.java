@@ -28,7 +28,7 @@ package ome.metakit;
 import java.io.IOException;
 import java.util.ArrayList;
 
-import ome.scifio.io.RandomAccessInputStream;
+import loci.common.RandomAccessInputStream;
 
 /**
  * Utility methods for working with Metakit database files.
