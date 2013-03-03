@@ -41,7 +41,6 @@ import java.util.Hashtable;
 import java.util.Map;
 
 import loci.common.DateTools;
-import loci.common.Location;
 import loci.common.services.DependencyException;
 import loci.common.services.ServiceException;
 import loci.common.services.ServiceFactory;
@@ -50,6 +49,7 @@ import loci.formats.meta.MetadataRetrieve;
 import loci.formats.meta.MetadataStore;
 import loci.formats.ome.OMEXMLMetadata;
 import loci.formats.services.OMEXMLService;
+import ome.scifio.io.Location;
 import ome.xml.model.BinData;
 import ome.xml.model.OME;
 import ome.xml.model.enums.DimensionOrder;

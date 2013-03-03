@@ -36,7 +36,6 @@ import java.util.Vector;
 
 import loci.common.ByteArrayHandle;
 import loci.common.DataTools;
-import loci.common.Location;
 import loci.common.RandomAccessInputStream;
 import loci.common.xml.BaseHandler;
 import loci.common.xml.XMLTools;
@@ -48,7 +47,7 @@ import loci.formats.MetadataTools;
 import loci.formats.meta.MetadataStore;
 import loci.formats.tiff.IFD;
 import loci.formats.tiff.TiffParser;
-
+import ome.scifio.io.Location;
 import ome.xml.model.primitives.NonNegativeInteger;
 import ome.xml.model.primitives.PositiveFloat;
 import ome.xml.model.primitives.PositiveInteger;
