@@ -112,8 +112,8 @@ public class LegacyQTTools {
     }
 
     // case for Windows
-    try {
-      String windir = System.getProperty("java.library.path");
+    String windir = System.getProperty("java.library.path");
+    if (windir != null) try {
       StringTokenizer st = new StringTokenizer(windir, ";");
 
       while (st.hasMoreTokens()) {

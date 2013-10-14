@@ -83,6 +83,7 @@ public class ImageWriter implements IFormatWriter {
           new ClassList<IFormatWriter>("writers.txt", IFormatWriter.class);
       }
       catch (IOException exc) {
+exc.printStackTrace();
         defaultClasses = new ClassList<IFormatWriter>(IFormatWriter.class);
         LOGGER.info("Could not parse class list; using default classes", exc);
       }
@@ -128,6 +129,7 @@ public class ImageWriter implements IFormatWriter {
     // add writers to the list
     List<IFormatWriter> list = new ArrayList<IFormatWriter>();
     Class<? extends IFormatWriter>[] c = classList.getClasses();
+System.err.println("Found " + c.length +  " classes in the class list");
     for (int i=0; i<c.length; i++) {
       IFormatWriter writer = null;
       try {
@@ -157,7 +159,10 @@ public class ImageWriter implements IFormatWriter {
     if (!id.equals(currentId)) {
       // initialize file
       boolean success = false;
+System.err.println("have " + writers.length + " writer(s)");
       for (int i=0; i<writers.length; i++) {
+System.err.println("Trying writer: " + writers[i]);
+System.err.println(id + " is this type? " + writers[i].isThisType(id));
         if (writers[i].isThisType(id)) {
           current = i;
           currentId = id;

@@ -378,8 +378,7 @@ public class TiffSaver {
 
       strips[strip] = compression.compress(strips[strip], codecOptions);
       if (LOGGER.isDebugEnabled()) {
-        LOGGER.debug(String.format("Compressed strip %d/%d length %d",
-            strip + 1, nStrips, strips[strip].length));
+        LOGGER.debug("Compressed strip " + (strip + 1) + "/" + nStrips + " length " + strips[strip].length);
       }
     }
 
@@ -498,10 +497,7 @@ public class TiffSaver {
       offsets.set(thisOffset, out.getFilePointer());
       byteCounts.set(thisOffset, new Long(strips[i].length));
       if (LOGGER.isDebugEnabled()) {
-        LOGGER.debug(String.format(
-            "Writing tile/strip %d/%d size: %d offset: %d",
-            thisOffset + 1, totalTiles, byteCounts.get(thisOffset),
-            offsets.get(thisOffset)));
+        LOGGER.debug("Writing tile/strip " + (thisOffset + 1) + "/" + totalTiles + " size: " + byteCounts.get(thisOffset) + " offset: " + offsets.get(thisOffset));
       }
       out.write(strips[i]);
     }

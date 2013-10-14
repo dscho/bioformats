@@ -59,7 +59,77 @@ public class ServiceFactory {
 
   /** Logger for this class. */
   private static final Logger LOGGER =
-    LoggerFactory.getLogger(ServiceFactory.class);
+    //LoggerFactory.getLogger(ServiceFactory.class);
+    new Logger() {
+    public String getName(){return "Dummy";}
+    public boolean isTraceEnabled(){return false;}
+    public void trace(String s){}
+    public void trace(String s, java.lang.Object o){}
+    public void trace(String s, java.lang.Object o0, java.lang.Object o){}
+    public void trace(String s, java.lang.Object[] os){}
+    public void trace(String s, java.lang.Throwable t){}
+    public boolean isTraceEnabled(org.slf4j.Marker m){return false;}
+    public void trace(org.slf4j.Marker m, String s){}
+    public void trace(org.slf4j.Marker m, String s, java.lang.Object o){}
+    public void trace(org.slf4j.Marker m, String s, java.lang.Object o0, java.lang.Object o){}
+    public void trace(org.slf4j.Marker m, String s, java.lang.Object[] os){}
+    public void trace(org.slf4j.Marker m, String s, java.lang.Throwable t){}
+    public boolean isDebugEnabled(){return false;}
+    public void debug(String s){}
+    public void debug(String s, java.lang.Object o){}
+    public void debug(String s, java.lang.Object o0, java.lang.Object o){}
+    public void debug(String s, java.lang.Object[] os){}
+    public void debug(String s, java.lang.Throwable t){}
+    public boolean isDebugEnabled(org.slf4j.Marker m){return false;}
+    public void debug(org.slf4j.Marker m, String s){}
+    public void debug(org.slf4j.Marker m, String s, java.lang.Object o){}
+    public void debug(org.slf4j.Marker m, String s, java.lang.Object o0, java.lang.Object o){}
+    public void debug(org.slf4j.Marker m, String s, java.lang.Object[] os){}
+    public void debug(org.slf4j.Marker m, String s, java.lang.Throwable t){}
+private void log(String prefix, String s, Object[] os, Throwable t) {
+if (s != null) System.err.println(prefix + s + (os == null ? "" : java.util.Arrays.toString(os)));
+if (t != null) t.printStackTrace();
+}
+
+    public boolean isInfoEnabled(){return true;}
+    public void info(String s){log("[INFO] ", s, null, null);}
+    public void info(String s, java.lang.Object o){log("[INFO] ", s, new Object[] { o }, null);}
+    public void info(String s, java.lang.Object o0, java.lang.Object o){log("[INFO] ", s, new Object[] { o0, o }, null);}
+    public void info(String s, java.lang.Object[] os){log("[INFO] ", s, os, null);}
+    public void info(String s, java.lang.Throwable t){log("[INFO] ", s, null, t);}
+    public boolean isInfoEnabled(org.slf4j.Marker m){return true;}
+    public void info(org.slf4j.Marker m, String s){log("[INFO] ", s, null, null);}
+    public void info(org.slf4j.Marker m, String s, java.lang.Object o){log("[INFO] ", s, new Object[] { o }, null);}
+    public void info(org.slf4j.Marker m, String s, java.lang.Object o1, java.lang.Object o2){log("[INFO] ", s, new Object[] { o1, o2 }, null);}
+    public void info(org.slf4j.Marker m, String s, java.lang.Object[] o){log("[INFO] ", s, o, null);}
+    public void info(org.slf4j.Marker m, String s, java.lang.Throwable t){log("[INFO] ", s, null, t);}
+
+    public boolean isWarnEnabled(){return true;}
+    public void warn(String s){log("[WARN] ", s, null, null);}
+    public void warn(String s, java.lang.Object o){log("[WARN] ", s, new Object[] { o }, null);}
+    public void warn(String s, java.lang.Object o0, java.lang.Object o){log("[WARN] ", s, new Object[] { o0, o }, null);}
+    public void warn(String s, java.lang.Object[] os){log("[WARN] ", s, os, null);}
+    public void warn(String s, java.lang.Throwable t){log("[WARN] ", s, null, t);}
+    public boolean isWarnEnabled(org.slf4j.Marker m){return true;}
+    public void warn(org.slf4j.Marker m, String s){log("[WARN] ", s, null, null);}
+    public void warn(org.slf4j.Marker m, String s, java.lang.Object o){log("[WARN] ", s, new Object[] { o }, null);}
+    public void warn(org.slf4j.Marker m, String s, java.lang.Object o1, java.lang.Object o2){log("[WARN] ", s, new Object[] { o1, o2 }, null);}
+    public void warn(org.slf4j.Marker m, String s, java.lang.Object[] o){log("[WARN] ", s, o, null);}
+    public void warn(org.slf4j.Marker m, String s, java.lang.Throwable t){log("[WARN] ", s, null, t);}
+
+    public boolean isErrorEnabled(){return true;}
+    public void error(String s){log("[ERROR] ", s, null, null);}
+    public void error(String s, java.lang.Object o){log("[ERROR] ", s, new Object[] { o }, null);}
+    public void error(String s, java.lang.Object o0, java.lang.Object o){log("[ERROR] ", s, new Object[] { o0, o }, null);}
+    public void error(String s, java.lang.Object[] os){log("[ERROR] ", s, os, null);}
+    public void error(String s, java.lang.Throwable t){log("[ERROR] ", s, null, t);}
+    public boolean isErrorEnabled(org.slf4j.Marker m){return true;}
+    public void error(org.slf4j.Marker m, String s){log("[ERROR] ", s, null, null);}
+    public void error(org.slf4j.Marker m, String s, java.lang.Object o){log("[ERROR] ", s, new Object[] { o }, null);}
+    public void error(org.slf4j.Marker m, String s, java.lang.Object o1, java.lang.Object o2){log("[ERROR] ", s, new Object[] { o1, o2 }, null);}
+    public void error(org.slf4j.Marker m, String s, java.lang.Object[] o){log("[ERROR] ", s, o, null);}
+    public void error(org.slf4j.Marker m, String s, java.lang.Throwable t){log("[ERROR] ", s, null, t);}
+    };
 
   /** Default service properties file. */
   private static final String DEFAULT_PROPERTIES_FILE = "services.properties";
@@ -121,6 +191,7 @@ public class ServiceFactory {
     for (Entry<Object, Object> entry : entries) {
       String interfaceName = (String) entry.getKey();
       String implementationName = (String) entry.getValue();
+System.err.println("implementationName: " + implementationName);
       Class<? extends Service> interfaceClass = null;
       Class<? extends Service> implementationClass = null;
       ClassLoader loader = this.getClass().getClassLoader();
@@ -137,11 +208,13 @@ public class ServiceFactory {
           Class.forName(implementationName, false, loader);
       }
       catch (Throwable t) {
+t.printStackTrace();
         LOGGER.debug(
           "CLASSPATH missing implementation or implementation dependency: {}",
           implementationName, t);
       }
       services.put(interfaceClass, implementationClass);
+System.err.println("add " + interfaceClass + " and " + implementationClass);
       LOGGER.debug("Added interface {} and implementation {}",
         interfaceClass, implementationClass);
     }
@@ -158,6 +231,7 @@ public class ServiceFactory {
     throws DependencyException
   {
     Class<T> impl = (Class<T>) services.get(type);
+System.err.println("type: " + type + ", services: " + services);
     if (impl == null && services.containsKey(type)) {
       throw new DependencyException(
           "Unable to instantiate service. Missing implementation or " +

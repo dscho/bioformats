@@ -89,6 +89,9 @@ public class Location {
       this.time = time;
     }
   }
+
+private static class ConcurrentHashMap<A, B> extends HashMap<A, B> {}
+
   private static ConcurrentHashMap<String, ListingsResult> fileListings =
     new ConcurrentHashMap<String, ListingsResult>();
 
